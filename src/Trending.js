@@ -26,6 +26,7 @@ const Trending = () => {
                     <Coin 
                         name={coin.item.name}
                         image={coin.item.large}
+                        coin_id={coin.item.coin_id}
                     />
                 </Link>
             )}
